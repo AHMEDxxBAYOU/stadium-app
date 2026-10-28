@@ -21,9 +21,6 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Gradle
         uses: gradle/actions/setup-gradle@v4
         with:
@@ -52,3 +49,5 @@ jobs:
           body: نسخة تلقائية. حمّل ملف APK بالأسفل وثبّته على الهاتف.
           files: out/*.apk
           make_latest: true
+0
+
