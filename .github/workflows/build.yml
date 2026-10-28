@@ -49,5 +49,3 @@ jobs:
           body: نسخة تلقائية. حمّل ملف APK بالأسفل وثبّته على الهاتف.
           files: out/*.apk
           make_latest: true
-0
-
